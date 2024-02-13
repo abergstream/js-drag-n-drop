@@ -1,0 +1,13 @@
+#box {
+  border-radius: 0.5rem;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(225, 120, 75);
+  transition: transform 250ms, box-shadow 250ms;
+  position: absolute;
+}
+.dragged {
+  z-index: 5;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4);
+  transform: scale(1.03);
+}
